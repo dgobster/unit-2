@@ -1,0 +1,325 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Adams County",
+          "fsharerate15": 26.48,
+          "fsharerate16": 24.52,
+          "fsharerate17": 23.44,
+          "fsharerate18": 22.91,
+          "fsharerate19": 21.4,
+          "fsharerate20": 22.2,
+          "fsharerate21": 24.8
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.774758,
+            43.969455
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Columbia County",
+          "fsharerate15": 15.55,
+          "fsharerate16": 14.3,
+          "fsharerate17": 13.04,
+          "fsharerate18": 11.93,
+          "fsharerate19": 11.4,
+          "fsharerate20": 13.6,
+          "fsharerate21": 13.8
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.3263,
+            43.461867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Crawford County",
+          "fsharerate15": 18.67,
+          "fsharerate16": 17.76,
+          "fsharerate17": 17.26,
+          "fsharerate18": 16.18,
+          "fsharerate19": 15.7,
+          "fsharerate20": 15.7,
+          "fsharerate21": 16.9
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.898374,
+            43.246569
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Dane County",
+          "fsharerate15": 12.94,
+          "fsharerate16": 11.79,
+          "fsharerate17": 11.21,
+          "fsharerate18": 10.93,
+          "fsharerate19": 10.4,
+          "fsharerate20": 11.5,
+          "fsharerate21": 12.1
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.423867,
+            43.075193
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Dodge County",
+          "fsharerate15": 14.95,
+          "fsharerate16": 13.89,
+          "fsharerate17": 13.1,
+          "fsharerate18": 12.22,
+          "fsharerate19": 11.5,
+          "fsharerate20": 12.7,
+          "fsharerate21": 13.7
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.707514,
+            43.41528
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Grant County",
+          "fsharerate15": 12.83,
+          "fsharerate16": 12.27,
+          "fsharerate17": 12.1,
+          "fsharerate18": 11.28,
+          "fsharerate19": 11.2,
+          "fsharerate20": 11.9,
+          "fsharerate21": 12.9
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.676633,
+            42.87612
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Green County",
+          "fsharerate15": 15.01,
+          "fsharerate16": 13.35,
+          "fsharerate17": 11.9,
+          "fsharerate18": 10.99,
+          "fsharerate19": 10.1,
+          "fsharerate20": 10.6,
+          "fsharerate21": 11.3
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.602179,
+            42.680497
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Iowa County",
+          "fsharerate15": 14.37,
+          "fsharerate16": 13.86,
+          "fsharerate17": 12.74,
+          "fsharerate18": 11.92,
+          "fsharerate19": 11.5,
+          "fsharerate20": 11.6,
+          "fsharerate21": 12.1
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.139396,
+            42.990172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Jefferson County",
+          "fsharerate15": 14.83,
+          "fsharerate16": 13.72,
+          "fsharerate17": 12.54,
+          "fsharerate18": 11.44,
+          "fsharerate19": 11,
+          "fsharerate20": 11.7,
+          "fsharerate21": 12.4
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -88.808476,
+            43.005774
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Juneau County",
+          "fsharerate15": 23.62,
+          "fsharerate16": 23.06,
+          "fsharerate17": 22.18,
+          "fsharerate18": 21.13,
+          "fsharerate19": 20.3,
+          "fsharerate20": 21.9,
+          "fsharerate21": 23.6
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.145385,
+            43.915519
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Lafayette County",
+          "fsharerate15": 15.57,
+          "fsharerate16": 13.82,
+          "fsharerate17": 12.59,
+          "fsharerate18": 11.69,
+          "fsharerate19": 11.1,
+          "fsharerate20": 12,
+          "fsharerate21": 12.9
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.131729,
+            42.661137
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Monroe County",
+          "fsharerate15": 18.15,
+          "fsharerate16": 17.08,
+          "fsharerate17": 16.54,
+          "fsharerate18": 15.33,
+          "fsharerate19": 14.2,
+          "fsharerate20": 15.3,
+          "fsharerate21": 16.8
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.617823,
+            43.943076
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Richland County",
+          "fsharerate15": 21.31,
+          "fsharerate16": 20.29,
+          "fsharerate17": 19.72,
+          "fsharerate18": 18.07,
+          "fsharerate19": 17.2,
+          "fsharerate20": 19,
+          "fsharerate21": 19.3
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.429451,
+            43.377323
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Rock County",
+          "fsharerate15": 23.94,
+          "fsharerate16": 22.24,
+          "fsharerate17": 20.84,
+          "fsharerate18": 19.65,
+          "fsharerate19": 18.9,
+          "fsharerate20": 20,
+          "fsharerate21": 20.9
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.102502,
+            42.611985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Sauk County",
+          "fsharerate15": 18.1,
+          "fsharerate16": 17.11,
+          "fsharerate17": 16.13,
+          "fsharerate18": 15.28,
+          "fsharerate19": 14.3,
+          "fsharerate20": 16.2,
+          "fsharerate21": 16.8
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.948362,
+            43.416993
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "County": "Vernon County",
+          "fsharerate15": 15.92,
+          "fsharerate16": 14.51,
+          "fsharerate17": 13.49,
+          "fsharerate18": 12.39,
+          "fsharerate19": 11.5,
+          "fsharerate20": 12.3,
+          "fsharerate21": 13.3
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.834376,
+            43.574687
+          ]
+        }
+      }
+    ]
+  }
