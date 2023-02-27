@@ -3,3 +3,7 @@
     height: 1000px;
 	width: 100%;
 }
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
