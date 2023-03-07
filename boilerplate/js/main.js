@@ -14,7 +14,7 @@ function createMap() {
     //add OSM base tilelayer
     L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
         maxZoom: 20,
-        opacity: .5,
+        opacity: .65,
         attribution: '&copy; OpenStreetMap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
@@ -47,7 +47,7 @@ function calcStats(json) {
 //calculate the radius of each proportional symbol
 function calcPropRadius(attValue) {
     //constant factor adjusts symbol sizes evenly
-    var minRadius = 10;
+    var minRadius = 14;
     //Flannery Apperance Compensation formula
     var radius = 1.0083 * Math.pow(attValue / dataStats.min, 0.5715) * minRadius
     return radius;
@@ -236,7 +236,7 @@ function createLegend(attributes) {
             container.innerHTML = '<p class="temporalLegend">Food Share Population Rate: 20<span class="year">15</span></p>';
 
             //Start attribute legend svg string
-            var svg = '<svg id="attribute-legend" width="160px" height="130px">';
+            var svg = '<svg id="attribute-legend" width="160px" height="60px">';
 
             //array of circle names to base loop on
             var circles = ["max", "mean", "min"];
@@ -246,16 +246,22 @@ function createLegend(attributes) {
 
                 //Assign the r and cy attributes  
                 var radius = calcPropRadius(dataStats[circles[i]]);
-                var cy = 130 - radius;
+                var cy = 59 - radius;
 
                 //circle string
-                svg += '<circle class="legend-circle" id="' + circles[i] + '" fill= "#6A9DA7" fill-opacity= "0.44" stroke= "#52757B" cx="65" />';
+                svg += '<circle class="legend-circle" id="' +
+                    circles[i] +
+                    '" r="' +
+                    radius +
+                    '"cy="' +
+                    cy +
+                    '" fill= "#6A9DA7" fill-opacity= "0.44" stroke= "#52757B" cx="30" />';
 
                 //evenly space out labels            
-            var textY = i * 20 + 20;            
+                var textY = i * 20 + 20;
 
-            //text string            
-            svg += '<text id="' + circles[i] + '-text" x="65" y="' + textY + '">' + Math.round(dataStats[circles[i]]*100)/100 + " %" + '</text>';
+                //text string            
+                svg += '<text id="' + circles[i] + '-text" x="65" y="' + textY + '">' + Math.round(dataStats[circles[i]] * 100) / 100 + " %" + '</text>';
 
             };
 

@@ -7,16 +7,35 @@
     height: 600px;
     width: 100%;
     display: inline-block;
+    border: solid #446666 2px;
 }
 
-#panel {
-    width: 16%;
-    padding: 20px;
-    display: inline-block;
-    vertical-align: top;
+h1 {
+    color:#446666;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    line-height: 42px;
 }
+
+h2{
+    color:#446666;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+}
+
+h3{
+    color:#446666;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+body{
+    background-color: #66aa9934;
+}
+
+p{
+    color:#446666;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+
 
 .sequence-control-container {  
     width: 350px;  
@@ -25,7 +44,7 @@
     padding: 10px;  
     line-height: 45px;  
     text-align: center;  
-    border: solid gray 1px;  
+    border: solid #446666 1px;  
 }  
 
 .range-slider {
@@ -55,7 +74,7 @@
     background-color: rgba(255,255,255,0.8);
     padding: 10px;
     text-align: center;
-    border: solid gray 1px;
+    border: solid #446666 1px;
 }
 
 .legend-control-container p{
