@@ -1,5 +1,5 @@
-### **Title:** *Countywide Food Share Population Rate*
-## Second Harvest Foodbank of Southern Wisconsin Service Area
+### **Title:** *Countywide Food Share Population Rate:*
+#### *Second Harvest Foodbank of Southern Wisconsin Service Area*
 
 ### **Author:** Delaney Gobster
 
